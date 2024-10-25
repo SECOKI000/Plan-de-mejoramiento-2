@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carcel La Picota</title>
+  <link rel="stylesheet" href="styles.css"> 
+<body>
+  <header>
+    <h1>Carcel La Picota</h1>
+    <a href="agregar_recluso.html" class="accessible-button" aria-label="Agregar nuevo recluso">Agregar Recluso</a>
+
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#listado">Listado de Reclusos</a></li>
+      <li><a href="agregar_recluso.html">Agregar Recluso</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="listado">
+      <h2>Listado de Reclusos</h2>
+      <table role="table" aria-label="Tabla de reclusos con sus datos básicos">
+        <thead>
+          <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Edad</th>
+            <th scope="col">Delito</th>
+            <th scope="col">Nivel de Peligrosidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sergio Sanchez</td>
+            <td>30</td>
+            <td>Robo</td>
+            <td>Alta</td>
+          </tr>
+          <tr>
+            <td>Luis Sarabia</td>
+            <td>25</td>
+            <td>Hurto</td>
+            <td>Baja</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Carcel La Picota. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

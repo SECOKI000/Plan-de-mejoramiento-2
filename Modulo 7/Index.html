@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carcel La Picota</title>
+  <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+  <header>
+    <h1>Carcel La Picota</h1>
+    <button class="accessible-button" aria-label="Agregar nuevo recluso">Agregar Recluso</button>
+  </header>
+
+  <table role="table" aria-label="Tabla de reclusos con sus datos básicos">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Edad</th>
+        <th scope="col">Delito</th>
+        <th scope="col">Nivel de Peligrosidad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sergio Sanchez</td>
+        <td>30</td>
+        <td>Robo</td>
+        <td>Alta</td>
+      </tr>
+      <tr>
+        <td>Luis Sarabia</td>
+        <td>25</td>
+        <td>Hurto</td>
+        <td>Baja</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <form aria-label="Formulario para agregar un nuevo recluso">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" required>
+    
+    <label for="delito">Delito:</label>
+    <input type="text" id="delito" name="delito" required>
+    
+    <label for="peligrosidad">Nivel de Peligrosidad:</label>
+    <input type="text" id="peligrosidad" name="peligrosidad" required>
+    
+    <button type="submit">Agregar Recluso</button>
+  </form>
+</body>
+</html>
+
+
